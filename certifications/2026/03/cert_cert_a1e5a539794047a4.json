@@ -1,0 +1,10 @@
+{
+  "cert_id": "cert_a1e5a539794047a4",
+  "type": "simple",
+  "agent_id": "stripe-oneshot",
+  "issued_at": "2026-03-16T12:01:32.524911+00:00",
+  "hash": "fcfae0c0fd85fd2ca89e1c6ee33ba1a2003ab95a0165e07d739c87b5c69559de",
+  "signature": "ed25519:3vdK8aEpAa2CnSp4RyaRa8WPr/i5yMNMK78TZ7bJLvTWqZf0+TphvZqZAnxhTdlmRkEuRm3h9Y/zoYC4gC2SCQ==",
+  "public_key": "dFq73vErhf1EAsQo5EbOBWHHwAJicLIU6yVszFKhnB8=",
+  "verify_cmd": "piqrypt certify-verify cert_a1e5a539794047a4"
+}
