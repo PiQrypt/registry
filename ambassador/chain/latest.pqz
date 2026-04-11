@@ -1,0 +1,12 @@
+{
+  "version": "AISS-1.0",
+  "agent_id": "pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db",
+  "exported_at": "2026-04-11T16:27:56.880978+00:00",
+  "total_events": 0,
+  "chain_valid": true,
+  "fork_detected": false,
+  "export_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "public_key": "2KvB1E9TxKSmbwQk/EIAx0xhGfVM/QIvapj4ssYXhx4=",
+  "events": [],
+  "verify_note": "Verify offline: compute SHA-256 of 'events' array (JSON, sorted keys, compact) and compare with export_hash. Each event's Ed25519 signature is in event.signature field."
+}
