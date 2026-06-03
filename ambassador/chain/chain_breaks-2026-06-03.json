@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "exported_at": "2026-06-03T18:36:54.021016+00:00",
+  "rows": [
+    {
+      "id": "5ce86135-294a-4d35-b55f-0ecfaf13d6fa",
+      "agent_id": "pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db",
+      "detected_at": 1780252609,
+      "first_break_at": "1779048836",
+      "broken_links": 1,
+      "stamp_hash": "",
+      "status": "resolved_validated",
+      "resolved_at": 1780252869,
+      "resolved_by": "admin",
+      "resolution": "validated",
+      "timeout_at": 1780511809,
+      "resolution_stamp_hash": ""
+    }
+  ]
+}
