@@ -1,18 +1,18 @@
 {
   "version": "AISS-1.0",
   "agent_id": "pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db",
-  "exported_at": "2026-11-02T17:03:54.120814+00:00",
-  "total_events": 1278,
+  "exported_at": "2026-11-02T17:21:18.020408+00:00",
+  "total_events": 1279,
   "chain_valid": false,
   "fork_detected": true,
-  "export_hash": "d97f9919baad112d4b63802ec3421c3e76686dfb3ace74d91875770c631682e2",
+  "export_hash": "10f147f90448c602b338edc18d4677a27ace754e82b5dea7639c1ec04b4b77f0",
   "public_key": "2KvB1E9TxKSmbwQk/EIAx0xhGfVM/QIvapj4ssYXhx4=",
   "continuity": {
-    "events": 1278,
-    "head_hash": "9b407f17b8c124d4dd5f9c21fad5f519a7ee4f39c529402dcad815acd6ed3967",
-    "head_timestamp": 1781075768,
+    "events": 1279,
+    "head_hash": "a89245f58fd82d7a0e0ac8c8bfba59dedbb8d5ed603f24c9efb92bf82a126f20",
+    "head_timestamp": 1793640035,
     "genesis_hash": "e44e41cf8c0fc854eb7583c478ab4b4c388a8f460e89f92feb5e9bc01eba1f70",
-    "main_line_events": 1094,
+    "main_line_events": 1095,
     "main_line_reaches_genesis": true,
     "side_events": 184,
     "roots": 1,
@@ -16645,6 +16645,19 @@
       "signature": "EDw/uF4lqCUeAJtZJbpa0X2jvpurTHqYGcM5Q0567hN7/RDq8XE+2+M4aMNUmbMywd8DBTpCfjJmIOUU9ALkBg==",
       "timestamp": 1781075768,
       "event_json": null
+    },
+    {
+      "event_hash": "a89245f58fd82d7a0e0ac8c8bfba59dedbb8d5ed603f24c9efb92bf82a126f20",
+      "agent_id": "pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db",
+      "session_id": "chain_continuity_20261102",
+      "platform": "system",
+      "direction": "outbound",
+      "event_type": "chain_continuity_statement",
+      "payload_hash": "",
+      "previous_hash": "9b407f17b8c124d4dd5f9c21fad5f519a7ee4f39c529402dcad815acd6ed3967",
+      "signature": "3ZcQCge063gI+31ibGBmFPVILzlsFMP/3eAqaFUKU08NL3acN7bvQiASfwNmT0T7DV20d0qIDuMILqP7uMwRAg==",
+      "timestamp": 1793640035,
+      "event_json": "{\"agent_id\":\"pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db\",\"nonce\":\"18f2a610-b14e-4e6a-8853-8b5dc964bee0\",\"payload\":{\"break_id\":\"5ce86135-294a-4d35-b55f-0ecfaf13d6fa\",\"break_resolved_at\":1780252869,\"chain_events\":1278,\"chain_head_hash\":\"9b407f17b8c124d4dd5f9c21fad5f519a7ee4f39c529402dcad815acd6ed3967\",\"event_type\":\"chain_continuity_statement\",\"events_since_published\":0,\"fork_pairs\":184,\"predecessor_events\":1678,\"predecessor_head_hash\":\"e63d2e292a77c3bded1cf4b9cc2d79988077ad30c8934ca790e307a16caccf4a\",\"predecessor_last_snapshot\":\"2026-05-13\",\"published_events\":1278,\"published_exported_at\":\"2026-11-02T17:03:54.120814+00:00\",\"published_head_hash\":\"9b407f17b8c124d4dd5f9c21fad5f519a7ee4f39c529402dcad815acd6ed3967\",\"resumed_at\":\"2026-11-02T17:20:34.947506+00:00\",\"statement_version\":1},\"previous_hash\":\"9b407f17b8c124d4dd5f9c21fad5f519a7ee4f39c529402dcad815acd6ed3967\",\"signature\":\"3ZcQCge063gI+31ibGBmFPVILzlsFMP/3eAqaFUKU08NL3acN7bvQiASfwNmT0T7DV20d0qIDuMILqP7uMwRAg==\",\"timestamp\":1793640035,\"version\":\"AISS-1.0\"}"
     }
   ],
   "verify_note": "Verify offline: compute SHA-256 of 'events' array (JSON, sorted keys, compact) and compare with export_hash. Each event's Ed25519 signature is in event.signature field. Events stamped since the signed event began to be kept carry it in event.event_json: tools/verify_ambassador.py checks hashes, links and signatures from this file alone."
