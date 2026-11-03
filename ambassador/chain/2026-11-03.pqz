@@ -1,18 +1,18 @@
 {
   "version": "AISS-1.0",
   "agent_id": "pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db",
-  "exported_at": "2026-11-03T05:03:52.508204+00:00",
-  "total_events": 1313,
+  "exported_at": "2026-11-03T12:37:36.290997+00:00",
+  "total_events": 1314,
   "chain_valid": false,
   "fork_detected": true,
-  "export_hash": "e82f423e575300db32bb08dce114bd6dbfdcc2ef73855bef67ce79fefb2a17c3",
+  "export_hash": "cabf32426fc2ff612ca1b68048777df0dce9eb9da8b9c0775e72c14b9aba86d0",
   "public_key": "2KvB1E9TxKSmbwQk/EIAx0xhGfVM/QIvapj4ssYXhx4=",
   "continuity": {
-    "events": 1313,
-    "head_hash": "df6fc739e0264e0bece38502d1b4994d7d86346ffc2f4d4d57013ae7a4c0bd3e",
-    "head_timestamp": 1793681649,
+    "events": 1314,
+    "head_hash": "fdbd2f0deaedf26df5dd82d405e868e607cfc8d93009e95aa158108f66fd431e",
+    "head_timestamp": 1793709096,
     "genesis_hash": "e44e41cf8c0fc854eb7583c478ab4b4c388a8f460e89f92feb5e9bc01eba1f70",
-    "main_line_events": 1129,
+    "main_line_events": 1130,
     "main_line_reaches_genesis": true,
     "side_events": 184,
     "roots": 1,
@@ -17100,6 +17100,19 @@
       "signature": "DqasEyK0Clh124Rv352RFWNC2JoJ7DCeBhlhVLa/yCzrlxgHvawucy9eL69FeJ8IXVPuL9cuFmQh+IHwIeNrCw==",
       "timestamp": 1793681649,
       "event_json": "{\"agent_id\":\"pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db\",\"nonce\":\"f62271a8-83db-40e6-a65e-5dcb8f2da0cf\",\"payload\":{\"action\":\"upvote\",\"event_type\":\"moltbook_heartbeat\",\"platform\":\"moltbook\",\"success\":true,\"target_hash\":\"64d67c45062d9cbe6739e3bad68c920f71ab7ff25910f7efd52537c6be5e2410\"},\"previous_hash\":\"4d4af55d0780c289ca98d61a2060195c63e92d004c18936bdc684c0f85acbe0f\",\"signature\":\"DqasEyK0Clh124Rv352RFWNC2JoJ7DCeBhlhVLa/yCzrlxgHvawucy9eL69FeJ8IXVPuL9cuFmQh+IHwIeNrCw==\",\"timestamp\":1793681649,\"version\":\"AISS-1.0\"}"
+    },
+    {
+      "event_hash": "fdbd2f0deaedf26df5dd82d405e868e607cfc8d93009e95aa158108f66fd431e",
+      "agent_id": "pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db",
+      "session_id": "moltbook_targeted_reply",
+      "platform": "moltbook",
+      "direction": "outbound",
+      "event_type": "moltbook_heartbeat",
+      "payload_hash": "",
+      "previous_hash": "df6fc739e0264e0bece38502d1b4994d7d86346ffc2f4d4d57013ae7a4c0bd3e",
+      "signature": "zcQR2oy23m8TIMezwVE8a9cMRpKnZDsKlPJcij+fpahz6HJHhzTLpe6hfhgKf7BMGeiFcL2LbklrDximXNQmDw==",
+      "timestamp": 1793709096,
+      "event_json": "{\"agent_id\":\"pq1_8b3e1fae2be81e5fe3cdf5d15f98d4db\",\"nonce\":\"1764417a-59bc-4867-9031-8af5c5ba8f75\",\"payload\":{\"action\":\"targeted_reply\",\"content_hash\":\"d20f0b8f613f45fde14d22b7a0e49c1ab553cbfa151e4963b8e4e60c981cf045\",\"event_type\":\"moltbook_heartbeat\",\"platform\":\"moltbook\",\"success\":true,\"target_hash\":\"2f52281bed03e6185130aa504c0ec9f4caec3d382df078f5f8ec9d30a1350419\"},\"previous_hash\":\"df6fc739e0264e0bece38502d1b4994d7d86346ffc2f4d4d57013ae7a4c0bd3e\",\"signature\":\"zcQR2oy23m8TIMezwVE8a9cMRpKnZDsKlPJcij+fpahz6HJHhzTLpe6hfhgKf7BMGeiFcL2LbklrDximXNQmDw==\",\"timestamp\":1793709096,\"version\":\"AISS-1.0\"}"
     }
   ],
   "verify_note": "Verify offline: compute SHA-256 of 'events' array (JSON, sorted keys, compact) and compare with export_hash. Each event's Ed25519 signature is in event.signature field. Events stamped since the signed event began to be kept carry it in event.event_json: tools/verify_ambassador.py checks hashes, links and signatures from this file alone."
